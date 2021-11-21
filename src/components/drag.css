@@ -1,0 +1,39 @@
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.dropBox {
+  margin: auto;
+  width: 100%;
+  max-width: 300px;
+  height: 20vh;
+  /* max-height: 200px; */
+  border: 2px dashed white;
+  margin-top: -12vh
+}
+
+.draggableImage {
+  /* height:11vh; */
+  margin-top: 3vh;
+  margin-bottom: 6vh;
+  max-width: 150px
+}
+
+.parentDiv {
+  margin-top: 20vh;
+  float: left;
+  width: 100%;
+}
+

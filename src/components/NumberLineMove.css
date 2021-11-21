@@ -1,0 +1,73 @@
+.parentImage {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: block;
+}
+
+.NumberLine {
+    max-width: 1000px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.nline {
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+}
+
+.fish {
+    width: 15vw;
+    max-width: 70px;
+    transition-duration: 0.6s;
+}
+
+.firstBar {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.secondBar {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+    .fish {
+        width: 10vw;
+    }
+}
+
+@media only screen and (max-height: 500px) {
+    .NumberLine {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        float: left;
+    }
+    .nline {
+        margin-top: -15vh;
+        margin-bottom: 18vh;
+    }
+    .firstBar {
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 100%;
+        max-width: 400px
+    }
+    .secondBar {
+        display: flex;
+        margin-left: 20px;
+        margin-right: 30px;
+        width: 100%;
+        max-width: 400px;
+    }.fish {
+        width: 5vw;
+    }
+}

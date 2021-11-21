@@ -1,0 +1,210 @@
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ 
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  
+  
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  margin-top: -25vh;
+  z-index:999;
+  padding: 1.6em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.fourth {
+  border-color: black;
+  background-color:#f1c40f ;
+  color: #fff;
+  background-image: -webkit-linear-gradient(45deg, black 50%, transparent 50%);
+  background-image: linear-gradient(45deg, black 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.fourth:hover {
+  background-position: 0;
+}
+.questionImage{
+  width: 15vh;
+  max-width: 150px;
+}
+
+.answerButton{
+  font-size: 4vw;
+  height: 5vh;
+  line-height: 1vh;
+  vertical-align :middle;
+  /* margin: 2vh; */
+  padding: 5vh;
+  position: relative;
+}
+
+.objectLeft, .objectRight{
+float : left;
+}
+.objectRow{
+margin-top: 10vh;
+}
+@media only screen and (max-width: 700px) {
+.objectLeft, .objectRight{
+  float : left;
+  width : 80%;
+  text-align: center;
+}
+.objectLeft{
+  margin-left: 10%;
+}
+.objectRight{
+  margin-left: 10%;
+}
+.operator{
+  width: 100%;
+  float: left;
+  text-align: center;
+  line-height : "10px";
+  height:"25px";
+}
+.questionImage{
+  width: 14vw;
+}
+.draggableImage{
+  width: 14vw;
+}
+.dropBox{
+  margin: auto;
+  width: 100%;
+  max-width: 300px;
+  height: 20vh;
+  /* max-height: 200px; */
+  border: 2px dashed white;
+  margin-top:-12vh
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@font-face {
+  font-family: 'SequentialistBB';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/306FA6_1_0.woff2') format('woff2'),
+  url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/306FA6_0_0.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  }
+@font-face {
+  font-family: 'SequentialistBB';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/306FA6_0_0.woff2') format('woff2'),
+  url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/306FA6_0_0.woff') format('woff');
+  font-style: italic;
+  font-weight: 400;
+  }
+* { 
+box-sizing: border-box;
+}
+body { 
+  font-family: SequentialistBB, cursive; 
+  font-size: 2.5vw; 
+  margin: 0;
+}
+section { 
+min-height: 100vh; 
+display: flex;
+justify-content: center;
+align-content: center;
+}
+section { 
+padding: 3rem; 
+}
+section:nth-of-type(1) {
+  background: #d52b21;
+}
+section:nth-of-type(2) {
+  background: #fff;
+}
+section:nth-of-type(3) {
+background: #0388fe;
+}
+blockquote.bubble { 
+background-position: center;
+background-repeat: no-repeat !important;
+background-size: 100% 100%;
+margin: 0 auto;
+text-align: center;
+height: 0;
+box-sizing: content-box;
+line-height: 1;
+}
+blockquote.speech {
+background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/speech-bubble.svg); 
+width: 25%;
+padding-top: 6%;
+padding-bottom: 20%;
+}
+blockquote.whisper {
+background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/whisper.svg); 
+width: 25%;
+font-size: 2vw;
+color: #ccc;
+font-style: italic;
+padding: 6% 5% 15%;
+}
+blockquote.electric {
+background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/electric.svg); 
+width: 25%;
+font-size: 2.4vw;
+font-style: italic;
+padding: 4% 6% 12% 0%;
+}
+blockquote.electric span {
+display: block;
+font-size: 3vw;
+font-weight: bold;
+} */
