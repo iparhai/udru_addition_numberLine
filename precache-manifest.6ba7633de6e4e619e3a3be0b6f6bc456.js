@@ -1,22 +1,22 @@
 self.__precacheManifest = [
   {
-    "revision": "9183e3d7ce89c08a1b1b",
-    "url": "/urdu_addition_numberLine/static/css/main.b25b28c3.chunk.css"
+    "revision": "1338052607e073ad51cc",
+    "url": "/urdu_addition_numberLine/static/css/main.1540fdfa.chunk.css"
   },
   {
-    "revision": "9183e3d7ce89c08a1b1b",
-    "url": "/urdu_addition_numberLine/static/js/main.424619e3.chunk.js"
+    "revision": "1338052607e073ad51cc",
+    "url": "/urdu_addition_numberLine/static/js/main.2222f799.chunk.js"
   },
   {
     "revision": "131eab514fd9994cf223",
     "url": "/urdu_addition_numberLine/static/js/runtime~main.ff7475fa.js"
   },
   {
-    "revision": "8a88f79a7670a1790da3",
-    "url": "/urdu_addition_numberLine/static/css/2.7eef5ba2.chunk.css"
+    "revision": "14ef81736ca9be66d958",
+    "url": "/urdu_addition_numberLine/static/css/2.71f08fad.chunk.css"
   },
   {
-    "revision": "8a88f79a7670a1790da3",
+    "revision": "14ef81736ca9be66d958",
     "url": "/urdu_addition_numberLine/static/js/2.dd886786.chunk.js"
   },
   {
@@ -52,12 +52,12 @@ self.__precacheManifest = [
     "url": "/urdu_addition_numberLine/static/media/321go.8efff185.mp3"
   },
   {
-    "revision": "09b0b7bb4e8aad40481825ec9d91d223",
-    "url": "/urdu_addition_numberLine/static/media/rightAnswer.09b0b7bb.mp3"
+    "revision": "88e8a851b1954501951ae45cf46c1e2f",
+    "url": "/urdu_addition_numberLine/static/media/rightAnswer.88e8a851.mp3"
   },
   {
-    "revision": "ddcbc59b2917e3dbeb737fca1e3ede4e",
-    "url": "/urdu_addition_numberLine/static/media/wrongAnswer.ddcbc59b.mp3"
+    "revision": "48b32efb6257ce0ee9f40b87b5894871",
+    "url": "/urdu_addition_numberLine/static/media/wrongAnswer.48b32efb.mp3"
   },
   {
     "revision": "40d8e09c1bc1e01df2f2d0350718c089",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
     "url": "/urdu_addition_numberLine/static/media/instructions.59843b2d.gif"
   },
   {
-    "revision": "6a5d838a8ee70c4e15daf0677241eb99",
+    "revision": "83796d2b9b4671037160dd32564e197b",
     "url": "/urdu_addition_numberLine/index.html"
   }
 ];
